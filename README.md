@@ -29,6 +29,7 @@ For our data input, there was a lot of munging required to remove unneeded data.
 <b>Official and Community Magic: The Gathering Websites</b> - Our team researched Magic: The Gathering through various official and community driven websites to gather more information about the various data points that could be used within a playing card.<sup>5</sup> 
 
 ## Results
+
 ![Correlation heat map](/images/heatmap.png?raw=true)
 
 Before creating our training model, our team looked at the features that we gathered from the cards. The heat map revealed that a lot of the features did not correlate strongly. The only features that had a strong correlation was the name of the card and oracle text. The oracle text refers to the official function description of a card by the publisher.<sup>6</sup>
@@ -46,12 +47,16 @@ Last, our team plotted the color type of a card by a particular artist. Again ou
 For our training model, we create an 75/25 split between our training and test data, respectively. Our preferred predictor engine was the SVC library. We tried other predictor engines, such as SGDClassifier, but those predictor engines, with additional parameter tuning, resulted in lower accuracy scores. We were able to get the optimal results using the following parameters with the SVC library: kernel=’linear’ and C=1E10. In addition, we found that the random state affected our accuracy results. Our team found the optimal value to be 7. This tuning resulted in an <b>accuracy of forty-four percent.</b>
 
 Out of all the card types, the creature cards were miscategorized heavily. The land and instant or sorcery type cards were generaly categorized correctly. Below is a screenshot of the confusion matrix.
+
 ![training mode and accuracy](/images/confusionMatrix.png?raw=true)
 
 ## Discussion
 This result shows that building an accurate prediction model may require either a lot more data or tuning. Our training models used a small sample size due to the size of the images. If we were to use a larger dataset, our accuracy with our training model could have performed better. In addition, our results could improve with additional tuning of our training model. To our training model, the image of a creature versus another type of card may look similar in shape. You can see this occur with the following two cards below.
+
 ![training mode and accuracy](/images/exampleCards.png?raw=true)
+
 If we were able to implement a solution for our training model to recognize facial or architectural features, this additional knowledge by our training model would likely result in much higher accuracy.
+
 ## Summary
 Our team sought out to find a prediction engine that could predict the type of a Magic: The Gathering card just by the cover art, but the training model yielded substandard results using the SVM/SVC libraries from SKLearn. We found that additional data and tuning would be required to improve the accuracy of our training model if we were to use cover art with our prediction engine.
 
