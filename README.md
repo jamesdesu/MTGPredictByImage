@@ -4,7 +4,7 @@
 David Kim, Ericka Koyama, James DeSelms
 
 ## Introduction
-Our project, <b>MTG Predictor</b>, was undertaken to see if it would be possible to predict the type of a card based on the cover art image with an error rate lower than random chance, 20%. During the creation of the project, our team would discover the steps needed to convert our image data into something a computer can comprehend and use to train a model. In addition, our team would find what is involved in tuning our training model to more accurately predict the right card. Last, we use various other predictors to see if other training models offered a better accuracy result.
+Our project, <b>MTGPredictByImage</b>, was undertaken to see if it would be possible to predict the type of a card based on the cover art image with an accuracy rate higher than random chance, 20%. During the creation of the project, our team would discover the steps needed to convert our image data into something a computer can comprehend and use to train a model. In addition, our team would find what is involved in tuning our training model to more accurately predict the right card. Last, we use various other predictors to see if other training models offered a better accuracy result.
 
 ## Selection of Data
 The source of our dataset was from the <b>Scyfall API</b><sup>2</sup>. The Scryfall API has a wide variety of data available for the cards in the Magic: The Gathering universe. This universe encompasses a wide variety of decks and sets.
@@ -13,7 +13,7 @@ Within these sets of cards, the Scryfall API provides information like the title
 
 ![Magic Card Types(Enchantment, Land, Instant or Sorcery, Artifact, and Creature)](/images/cardTypes.png?raw=true)
 
-For our data, we selected five types of cards to examine: <b>Enchantment, Land, Instant or Sorcery, Artifact, and Creature</b>. Enchantments apply an effect to the playing field or game.<sup>1</sup> Land can be used as a resource.<sup>1</sup> Instant or Sorcery types apply a spell during your turn or a reaction to the opponents move.<sup>1</sup> Last, the creature types are your units.<sup>1</sup> We selected a total of one-hundred twenty-five cards split evenly among the five types.
+For our data, we selected five types of cards to examine: <b>Enchantment, Land, Instant or Sorcery, Artifact, and Creature</b>. Enchantments apply an effect to the playing field or game.<sup>1</sup> Land can be used as a resource.<sup>1</sup> Instant or Sorcery types apply a spell during your turn or a reaction to the opponents move.<sup>1</sup> Artifact types have a wide range of uses such as enhancing creatures.<sup>1</sup> Last, the creature types are your units.<sup>1</sup> We selected a total of one-hundred twenty-five cards split evenly among the five types.
 
 ![Python Code with out data munging and engineering](/images/dataEngineering.png?raw=true)
 
