@@ -13,7 +13,7 @@ Within these sets of cards, the Scryfall API provides information like the title
 
 ![Magic Card Types(Enchantment, Land, Instant or Sorcery, Artifact, and Creature)](/images/cardTypes.png?raw=true)
 
-For our data, we selected five types of cards to examine: <b>Enchantment, Land, Instant or Sorcery, Artifact, and Creature</b>. Enchantments apply an effect to the playing field or game.<sup>1</sup> Land can be used as a resource.<sup>1</sup> Instant or Sorcery types apply a spell during your turn or a reaction to the opponents move.<sup>1</sup> Last, the creature types are your units.<sup>1</sup> We selected a total of one-hundred twenty-five cards split evenly among the five types.
+For our data, we selected five types of cards to examine: <b>Enchantment, Land, Instant or Sorcery, Artifact, and Creature</b>. Enchantments apply an effect to the playing field or game.<sup>1</sup> Land can be used as a resource.<sup>1</sup> Instant or Sorcery types apply a spell during your turn or a reaction to the opponents move.<sup>1</sup> Artifact cards have a wide range of uses.<sup>1</sup> Last, the creature types are your units.<sup>1</sup> We selected a total of one-hundred twenty-five cards split evenly among the five types.
 
 ![Python Code with out data munging and engineering](/images/dataEngineering.png?raw=true)
 
