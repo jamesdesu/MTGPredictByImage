@@ -4,7 +4,7 @@
 David Kim, Ericka Koyama, James DeSelms
 
 ## Introduction
-Our project, <b>MTGPredictByImage</b>, was undertaken to see if it would be possible to predict the type of a card based on the cover art image with an error rate lower than random chance, 20%. During the creation of the project, our team would discover the steps needed to convert our image data into something a computer can comprehend and use to train a model. In addition, our team would find what is involved in tuning our training model to more accurately predict the right card. Last, we use various other predictors to see if other training models offered a better accuracy result.
+Our project, <b>MTGPredictByImage</b>, was undertaken to see if it would be possible to predict the type of a card based on the cover art image with an accuracy rate higher than random chance, 20%. During the creation of the project, our team would discover the steps needed to convert our image data into something a computer can comprehend and use to train a model. In addition, our team would find what is involved in tuning our training model to more accurately predict the right card. Last, we use various other predictors to see if other training models offered a better accuracy result.
 
 ## Selection of Data
 The source of our dataset was from the <b>Scyfall API</b><sup>2</sup>. The Scryfall API has a wide variety of data available for the cards in the Magic: The Gathering universe. This universe encompasses a wide variety of decks and sets.
