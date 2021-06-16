@@ -17,7 +17,7 @@ For our data, we selected five types of cards to examine: <b>Enchantment, Land, 
 
 ![Python Code with out data munging and engineering](/images/dataEngineering.png?raw=true)
 
-For our data input, there was a lot of munging required to remove unneeded data. To start off, our team removed sixty-one unneeded features. For the feature our team was examining, type_line, we modified the string to remove any miscellaneous data that did not specify the type of the card. The other features that remained in the dataset included the image, name of the card, colors, color identity and several other features.
+For our data, there was a lot of munging required to remove unneeded data. Our team removed sixty-one unneeded features. As for feature engineering, one of the features our team manipulated was type_line. We modified the string to remove any miscellaneous data that did not specify the type of the card. The other feature that was processed was the cover art of the card. Our team grabbed the image URL from the Scryfall API and read the raw image data into a numpy array for use with our training model. The remaining features we retained in the dataset included the name of the card, colors, color identity and several other features.
 
 ## Methods
 <b>Scyfall API</b> - The Scryfall API was used as the source of our data.<sup>2</sup>
