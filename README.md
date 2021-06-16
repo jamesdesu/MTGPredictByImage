@@ -58,7 +58,7 @@ This result shows that building an accurate prediction model may require either 
 If we were able to implement a solution for our training model to recognize facial or architectural features, this additional knowledge by our training model would likely result in much higher accuracy.
 
 ## Summary
-Our team sought out to find a prediction engine that could predict the type of a Magic: The Gathering card just by the cover art, but the training model yielded substandard results using the SVM/SVC libraries from SKLearn. We found that additional data and tuning would be required to improve the accuracy of our training model if we were to use cover art with our prediction engine.
+Our team sought out to find a prediction engine that could predict the type of a Magic: The Gathering card just by the cover art, but the training model yielded good results using the SVM/SVC libraries from SKLearn. We found that additional data and tuning would be required to improve the accuracy of our training model if we were to use cover art with our prediction engine.
 
 ## Bibliography
 ###### 1 - https://primagames.com/tips/magic-gathering-card-type-guide
