@@ -44,9 +44,9 @@ Last, our team plotted the color type of a card by a particular artist. Again ou
 
 ![training mode and accuracy](/images/model.png?raw=true)
 
-For our training model, we create an 75/25 split between our training and test data, respectively. Our preferred predictor engine was the SVC library. We tried other predictor engines, such as SGDClassifier, but those predictor engines, with additional parameter tuning, resulted in lower accuracy scores. We were able to get the optimal results using the following parameters with the SVC library: kernel=’linear’ and C=1E10. In addition, we found that the random state affected our accuracy results. Our team found the optimal value to be 7. This tuning resulted in an <b>accuracy of forty-four percent.</b>
+For our training model, we created an 80/20 split between our training and test data, respectively. Our preferred predictor engine was the SVC library. We tried other predictor engines, such as SGDClassifier, but those predictor engines, with additional parameter tuning, resulted in lower accuracy scores. We were able to get the optimal results using the following parameters with the SVC library: kernel=’linear’ and C=1E10. In addition, we found that the random state affected our accuracy results. Our team found the optimal value to be 7. This tuning resulted in an <b>accuracy of forty-four percent.</b>
 
-Out of all the card types, the creature cards were miscategorized heavily. The land and instant or sorcery type cards were generaly categorized correctly. Below is a screenshot of the confusion matrix.
+The land and instant or sorcery type cards were generaly categorized correctly. Other card types were frequently miscategorized as creature type cards. Below is a screenshot of the confusion matrix.
 
 ![training mode and accuracy](/images/confusionMatrix.png?raw=true)
 
