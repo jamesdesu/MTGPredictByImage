@@ -3,7 +3,7 @@
 ## Team Members
 David Kim, Ericka Koyama, James DeSelms
 
-##Presentation Link
+## Presentation Link
 https://youtu.be/wn_1BHkt220
 
 ## Introduction
