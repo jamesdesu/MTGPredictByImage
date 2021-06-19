@@ -3,6 +3,9 @@
 ## Team Members
 David Kim, Ericka Koyama, James DeSelms
 
+##Presentation Link
+https://youtu.be/wn_1BHkt220
+
 ## Introduction
 Our project, <b>MTGPredictByImage</b>, was undertaken to see if it would be possible to predict the type of a card based on the cover art image with an accuracy rate higher than random chance, 20%. During the creation of the project, our team would discover the steps needed to convert our image data into something a computer can comprehend and use to train a model. In addition, our team would find what is involved in tuning our training model to more accurately predict the right card. Last, we use various other predictors to see if other training models offered a better accuracy result.
 
